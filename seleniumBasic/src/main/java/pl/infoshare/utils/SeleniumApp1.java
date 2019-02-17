@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SeleniumApp {
+public class SeleniumApp1 {
     public static void main(String[] args) {
         PurchaseSelectors  selector = new PurchaseSelectors();
 
@@ -44,10 +44,10 @@ public class SeleniumApp {
         chackoutLink.click();
 
 
-        WebElement proceedTpCheckoutLink =
-                wait.until((ExpectedConditions.elementToBeClickable((By.cssSelector(selector.getProceedTpCheckoutLink())))));
+        WebElement proceedToCheckoutLink =
+                wait.until((ExpectedConditions.elementToBeClickable((By.cssSelector(selector.getProceedToCheckoutLink())))));
 
-        proceedTpCheckoutLink.click();
+        proceedToCheckoutLink.click();
 
 
         WebElement ferstNameInput =

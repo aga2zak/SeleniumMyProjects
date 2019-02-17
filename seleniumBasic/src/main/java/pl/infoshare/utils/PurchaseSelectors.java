@@ -2,13 +2,10 @@ package pl.infoshare.utils;
 
 public class PurchaseSelectors {
     private String HandbagsLink="//div[contains(@class, 'mainmenu')]//a[text()='Handbags']";
- //   private String VintageChickHandbagLink="div#productsContainer div[item-name='Chic vintage DeVille'] div.store-btn-addtocart";
- //   private String ChickVintageDeVilleLink="div#productsContainer div[item-name='Chic vintage DeVille'] div.store-btn-addtocart";
-    private String ChickVintageDeVilleLink="#productsContainer > .col-md-4:nth-child(2) .addToCart";
+    private String ChickVintageDeVilleLink="div#productsContainer div[item-name='Chic vintage DeVille'] div.store-btn-addtocart";
     private String ShippingCartLink="//*[@id='miniCartSummary']/a[text()='Shopping cart ']";
     private String ChackoutLink=".checkout-bg > a";
- //   private String ChackoutLink="//div[contains(@class, 'shop-cart')]//a[text()='Checkout']";
-    private String ProceedTpCheckoutLink=".wc-proceed-to-checkout > a";
+    private String ProceedToCheckoutLink=".wc-proceed-to-checkout > a";
     private String FerstNameInput="input[name='customer.billing.firstName']";
     private String LastNameInput="input[name='customer.billing.lastName']";
     private String StreetInput="input[name='customer.billing.address']";
@@ -19,6 +16,7 @@ public class PurchaseSelectors {
     private String EmailInput="input[name='customer.emailAddress']";
     private String PhoneNumberInput="input[name='customer.billing.phone']";
     private String SubmitOrderButton="#submitOrder";
+    private String OrderIdText="#main-content > div > div > p:nth-child(2)";
 
     public String getHandbagsLink() {
         return HandbagsLink;
@@ -36,8 +34,8 @@ public class PurchaseSelectors {
         return ChackoutLink;
     }
 
-    public String getProceedTpCheckoutLink() {
-        return ProceedTpCheckoutLink;
+    public String getProceedToCheckoutLink() {
+        return ProceedToCheckoutLink;
     }
 
     public String getFerstNameInput() {
@@ -79,4 +77,6 @@ public class PurchaseSelectors {
     public String getSubmitOrderButton() {
         return SubmitOrderButton;
     }
+
+    public String getOrderIdText() { return OrderIdText; }
 }
