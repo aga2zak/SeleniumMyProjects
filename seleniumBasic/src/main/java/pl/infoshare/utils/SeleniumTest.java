@@ -74,7 +74,7 @@ public class SeleniumTest {
 
 
         WebElement proceedTpCheckoutLink =
-                wait.until((ExpectedConditions.elementToBeClickable((By.cssSelector(selector.getProceedTpCheckoutLink())))));
+                wait.until((ExpectedConditions.elementToBeClickable((By.cssSelector(selector.getProceedToCheckoutLink())))));
 
         JavascriptExecutor runner = (JavascriptExecutor) driver;
         String script = "arguments[0].click();";

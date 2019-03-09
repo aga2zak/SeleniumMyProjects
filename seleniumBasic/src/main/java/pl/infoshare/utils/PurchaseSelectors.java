@@ -1,7 +1,7 @@
 package pl.infoshare.utils;
 
 public class PurchaseSelectors {
-    private String HandbagsLink="//div[contains(@class, 'mainmenu')]//a[text()='Handbags']";
+    private String HandbagsLink="//div[contains(@class, 'mainmenu')]//a[text()='HandbagCatalouqePage']";
     private String ChickVintageDeVilleLink="div#productsContainer div[item-name='Chic vintage DeVille'] div.store-btn-addtocart";
     private String ShippingCartLink="//*[@id='miniCartSummary']/a[text()='Shopping cart ']";
     private String ChackoutLink=".checkout-bg > a";

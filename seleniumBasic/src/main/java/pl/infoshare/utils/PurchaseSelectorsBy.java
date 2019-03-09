@@ -3,7 +3,7 @@ package pl.infoshare.utils;
 import org.openqa.selenium.By;
 
 public class PurchaseSelectorsBy {
-    private By HandbagsLink=By.xpath("//div[contains(@class, 'mainmenu')]//a[text()='Handbags']");
+    private By HandbagsLink=By.xpath("//div[contains(@class, 'mainmenu')]//a[text()='HandbagCatalouqePage']");
     private By ChickVintageDeVilleLink=By.cssSelector("#productsContainer > .col-md-4:nth-child(2) .addToCart");
     private By ShippingCartLink=By.xpath("//*[@id='miniCartSummary']/a[text()='Shopping cart ']");
     private By ChackoutLink=By.cssSelector(".checkout-bg > a");
