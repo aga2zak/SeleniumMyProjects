@@ -42,9 +42,17 @@ public class SeleniumApp1 {
         checkoutPage.sectionCountryState();
         checkoutPage.subbmitOrder();
 
-      Assert.assertNotNull("order is null", checkoutPage.readOrderNumber());
+        OrderConfirmationPage orderConfirmationPage = new OrderConfirmationPage(driver);
+        Assert.assertNotNull("order is null", orderConfirmationPage.readOrderNumber());
+        try {
+            Assert.assertNotEquals("string not the same", "Order completed", orderConfirmationPage.readOrderCompleted());
+        }
+        catch (AssertionError e) {
+            System.out.println(e);
+        }
 
-         System.out.println(checkoutPage.readOrderNumber());
+        Assert.assertEquals("string not the same", "Order completed", orderConfirmationPage.readOrderCompleted());
+
 
     }
 

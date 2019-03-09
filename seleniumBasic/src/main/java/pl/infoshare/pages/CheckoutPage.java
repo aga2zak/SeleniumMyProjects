@@ -29,8 +29,7 @@ public class CheckoutPage extends BasePage{
     private TextInput phoneNumber;
     private By submitOrderButton;
     private Button submitOrder;
-    private By orderIdText;
-    private Label orderNumber;
+
 
     public CheckoutPage(WebDriver driver){
         super(driver);
@@ -87,9 +86,9 @@ public class CheckoutPage extends BasePage{
 
     }
 
-    public String readOrderNumber() {
-        this.orderIdText=By.cssSelector("#main-content > div > div > p:nth-child(2)");
-        this.orderNumber = new Label(this.driver, this.orderIdText);
-        return this.orderNumber.read();
-    }
+//    public String readOrderNumber() {
+//        this.orderIdText=By.cssSelector("#main-content > div > div > p:nth-child(2)");
+//        this.orderNumber = new Label(this.driver, this.orderIdText);
+//        return this.orderNumber.read();
+  //  }
 }

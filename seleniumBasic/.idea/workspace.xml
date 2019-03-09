@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dea2a9f-fdae-474c-af1d-0f6e3fc7af99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumBasic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/infoshare/utils/PurchaseSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/utils/PurchaseSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/infoshare/utils/PurchaseSelectorsBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/utils/PurchaseSelectorsBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/infoshare/utils/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/utils/SeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/seleniumBasic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/infoshare/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,24 +23,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
-          <entry key="java" value="22" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="968" />
+          <entry key="java" value="1172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="968" />
+          <entry key="JAVA" value="1172" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -53,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="225">
+              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
               <folding>
                 <element signature="e#529#530#0" expanded="true" />
                 <element signature="e#552#553#0" expanded="true" />
@@ -67,93 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/ClassLoader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="205" selection-start-line="205" selection-end-line="205" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/ConcurrentHashMap.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="245" selection-start-line="245" selection-end-line="245" />
-              <folding>
-                <element signature="e#27006#27007#0" expanded="true" />
-                <element signature="e#27058#27059#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/String.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="453" selection-start-line="453" selection-end-line="453" />
-              <folding>
-                <element signature="e#29515#29516#0" expanded="true" />
-                <element signature="e#29572#29573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/StringLatin1.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Object.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/jdk/internal/loader/ClassLoaders.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/jdk/internal/loader/BuiltinClassLoader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="364" selection-start-line="364" selection-end-line="364" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/System.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="153" selection-start-line="153" selection-end-line="153" />
-              <folding>
-                <element signature="e#4539#4540#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/pages/CheckoutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="982">
-              <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+            <state relative-caret-position="-653">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/pages/OrderConfirmationPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -182,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/pages/ReviewYourOrderPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/pages/HandbagCatalouqePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/pages/CheckoutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/pages/OrderConfirmationPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java" />
       </list>
     </option>
@@ -277,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552131901903" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552135576195" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -353,44 +275,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552115579317</updated>
-      <workItem from="1552115582324" duration="14456000" />
+      <workItem from="1552115582324" duration="16355000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 36m 43s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 31m 28s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 37m 00s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 33m 08s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 37m 48s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 33m 55s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 38m 45s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 35m 37s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 39m 11s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 36m 11s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 41m 55s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 37m 07s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 42m 13s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 37m 35s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 42m 36s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 39m 48s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 44m 55s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 40m 10s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumApp1 - 2019.03.09 at 12h 45m 14s.xml">
+    <history-entry file="SeleniumApp1 - 2019.03.09 at 13h 41m 20s.xml">
       <configuration name="SeleniumApp1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14456000" />
+    <option name="totallyTimeSpent" value="16355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="25" width="1323" height="743" extended-state="6" />
@@ -463,18 +385,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/elements/Select.java">
@@ -557,24 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/pages/CheckoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/System.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -606,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/ClassLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/ConcurrentHashMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -639,6 +524,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/pages/CheckoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/pages/OrderConfirmationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/tests/SeleniumApp1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
