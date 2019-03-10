@@ -2,6 +2,8 @@ package pl.infoshare.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import pl.infoshare.dataModels.Address;
+import pl.infoshare.dataModels.RegisteredUser;
 import pl.infoshare.elements.Button;
 import pl.infoshare.elements.Label;
 import pl.infoshare.elements.Select;
@@ -43,41 +45,35 @@ public class CheckoutPage extends BasePage{
     }
 
 
-    public void sectionFullName(){
-        this.firstName.sendKeys("Jan");
-        this.lastName.sendKeys("Nowak");
-        this.street.sendKeys("Polna 1/1");
-        this.city.sendKeys("Gdańsk");
+    public void sectionFullName(RegisteredUser user){
+        this.firstName.sendKeys(user.getFirstname());
+        this.lastName.sendKeys(user.getLastname());
+        this.street.sendKeys(user.getAddress().getStreetAddress());
+        this.city.sendKeys(user.getAddress().getCity());
     }
 
-    public void sectionCountryState(){
+    public void sectionCountryState( RegisteredUser user){
         this.countrySelect=By.cssSelector("select[name='customer.billing.country']");
         this.country = new Select(this.driver, this.countrySelect);
-        this.country.choose("Brazil");
+        this.country.choose(user.getAddress().getCountry());
 
         this.stateInput=By.cssSelector("input[name='customer.billing.stateProvince']");
         this.state= new TextInput(this.driver, this.stateInput);
-        this.state.sendKeys("Gdańsk");
+        this.state.sendKeys(user.getAddress().getState());
 
         this.postalCodeInput=By.cssSelector("input[name='customer.billing.postalCode']");
         this.postal = new TextInput(this.driver, this.postalCodeInput);
-        this.postal.sendKeys("Gdańsk");
+        this.postal.sendKeys(user.getAddress().getPostalCode());
 
         this.emailInput=By.cssSelector("input[name='customer.emailAddress']");
         this.email = new TextInput(this.driver, this.emailInput);
-        this.email.sendKeys("test@test.com");
+        this.email.sendKeys(user.getEmail());
 
         this.phoneNumberInput=By.cssSelector("input[name='customer.billing.phone']");
         this.phoneNumber = new TextInput(this.driver, this.phoneNumberInput);
-        this.phoneNumber.sendKeys("111111111");
+        this.phoneNumber.sendKeys(user.getPhoneNumber());
 
     }
-
-//    public String getNumberOrder(){
-//      this.submitOrderButton=By.id("submitOrder");
-//      this.orderNumber = new Label(this.driver, this.submitOrderButton);
-//       return this.orderNumber.read();
-
 
     public void subbmitOrder() {
         this.submitOrderButton=By.id("submitOrder");
@@ -86,9 +82,5 @@ public class CheckoutPage extends BasePage{
 
     }
 
-//    public String readOrderNumber() {
-//        this.orderIdText=By.cssSelector("#main-content > div > div > p:nth-child(2)");
-//        this.orderNumber = new Label(this.driver, this.orderIdText);
-//        return this.orderNumber.read();
-  //  }
+
 }

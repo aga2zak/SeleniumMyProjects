@@ -38,8 +38,8 @@ public class SeleniumApp1 {
         reviewYourOrderPage.proceedToCheckout();
 
         CheckoutPage checkoutPage = new CheckoutPage(driver);
-        checkoutPage.sectionFullName();
-        checkoutPage.sectionCountryState();
+   //     checkoutPage.sectionFullName();
+  //      checkoutPage.sectionCountryState();
         checkoutPage.subbmitOrder();
 
         OrderConfirmationPage orderConfirmationPage = new OrderConfirmationPage(driver);
